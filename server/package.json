@@ -1,0 +1,11 @@
+{
+  "name": "todo_server",
+  "version": "1.0.0",
+  "description": "ToDO Mern server\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[3~o",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "SAI VADDEMANI",
+  "license": "ISC"
+}
