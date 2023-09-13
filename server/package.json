@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "ToDO Mern server\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[3~o",
   "main": "app.js",
+  "engines": {"node": "18.17.1"},
   "scripts": {
     "start": "nodemon app.js"
   },
