@@ -14,14 +14,17 @@ const connectDB = require("./db/connect");
 // routers
 const authRouter = require("./routes/authRoutes");
 
+// middleware
+const notFoundMiddleware = require("./middleware/not-found");
+const errorHandlerMiddleware = require("./middleware/error-handler");
+
 app.use(express.json());
 app.use(cookieParser(process.env.JWT_SECRET));
 
 app.use("/api/v1/auth", authRouter);
 
-app.use((err, req, res, next) => {
-  return res.status(404).json({ err: err.message });
-});
+app.use(notFoundMiddleware);
+app.use(errorHandlerMiddleware);
 
 const port = process.env.PORT || 5000;
 const start = async () => {
