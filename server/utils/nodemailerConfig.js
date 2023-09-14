@@ -1,8 +1,10 @@
 module.exports = {
-  host: "smtp.ethereal.email",
+  service: "gmail",
+  host: "smtp.gmail.com",
   port: 587,
+  secure: false,
   auth: {
-    user: "dorthy.block54@ethereal.email",
-    pass: "gFs1sCaDCaHt82Hz6j",
+    user: process.env.GMAIL_USERNAME,
+    pass: process.env.GMAIL_APPPASSWORD,
   },
 };
