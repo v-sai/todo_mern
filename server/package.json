@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "ToDO Mern server\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[3~o",
   "main": "app.js",
-  "engines": {"node": "18.17.1"},
+  "engines": {
+    "node": "18.17.1"
+  },
   "scripts": {
     "start": "nodemon app.js"
   },
@@ -12,6 +14,7 @@
   "dependencies": {
     "bcryptjs": "^2.4.3",
     "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "express-async-errors": "^3.1.1",
